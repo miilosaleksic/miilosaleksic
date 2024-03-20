@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registracija i Prijavljivanje</title>
 </head>
+<script src="scripts/root.js"></script>
 <body>
-    <h1>Test</h1>
+    <div id="signup">
+        <h2>Registracija</h2>
+        <form id="signup-form">
+            <input type="text" id="username" placeholder="Korisničko ime" required><br>
+            <input type="password" id="password" placeholder="Lozinka" required><br>
+            <button type="submit">Registriraj se</button>
+        </form>
+    </div>
+
+    <div id="login">
+        <h2>Prijava</h2>
+        <form id="login-form">
+            <input type="text" id="login-username" placeholder="Korisničko ime" required><br>
+            <input type="password" id="login-password" placeholder="Lozinka" required><br>
+            <button type="submit">Prijavi se</button>
+        </form>
+    </div>
 </body>
 </html>
